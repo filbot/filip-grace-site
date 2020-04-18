@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-36036319-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-36036319-4');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Filip Grace • Front-end Developer</title>
+    <meta content="en_US" http-equiv="Content-Language" />
+    <meta
+      content="Front-end developer with experience working at tiny startups with big ideas, and large corporations with huge code bases."
+      name="description"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link id="favicon" rel="shortcut icon" type="image/png" href="" />
+    <link href="https://www.filipgrace.com/" rel="canonical" />
+    <style type="text/css">
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding-top: 150px;
+        color: #000;
+        transition: background 150ms ease-in-out;
+      }
+      body[data-theme='dark'] {
+        /*background: #11131f;*/
+        background: #364f6b;
+        color: #fff;
+      }
+      body[data-theme='dark'] a {
+        border-bottom-color: rgba(255, 255, 255, 0.4);
+      }
+      body[data-theme='dark'] h1,
+      body[data-theme='dark'] h4 {
+        opacity: 1;
+      }
+      body[data-theme='dark'] blockquote {
+        opacity: 0.9;
+      }
+      a,
+      a:active,
+      a:visited,
+      a:focus {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: dashed 1px rgba(0, 0, 0, 0.4);
+        padding-bottom: 2px;
+      }
+      a:focus,
+      a:hover {
+        border-bottom: solid 1px rgba(0, 0, 0, 0.4);
+        outline: none;
+      }
+      button {
+        /*appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;*/
+        /*padding: 1rem;*/
+        border: none;
+        font-size: inherit;
+        cursor: pointer;
+        background: #364f6b;
+        color: #000;
+      }
+      button:focus {
+        outline: none;
+      }
+      .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+      header {
+        margin: 0 0 150px;
+        position: relative;
+        padding-left: 87px;
+      }
+      .profile-image-container {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: -12px;
+        left: 0;
+      }
+      .profile-image-container:before {
+        /* content: '';
+        position: absolute;
+        top: 4px;
+        left: 2px;
+        width: 64px;
+        height: 64px;
+        border-radius: 999px;
+        background: #fc5185; */
+        display: none;
+      }
+      .profile-image-container img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      header nav {
+        position: absolute;
+        right: 0;
+        top: 12px;
+      }
+      header nav a {
+        opacity: 0.666;
+        margin-right: 25px;
+      }
+      h1 {
+        margin: 0 0 1px;
+        font-size: 20px;
+        font-weight: 500;
+        opacity: 0.855;
+      }
+      h2 {
+        margin: 0;
+        font-weight: 400;
+        font-size: 17px;
+        opacity: 0.535;
+      }
+      h3 {
+        font-size: 13px;
+        opacity: 0.535;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 35px;
+      }
+      h4 {
+        font-size: 17px;
+        font-weight: 500;
+        opacity: 0.855;
+        margin: 0 0 8px;
+      }
+      h5 {
+        font-size: 15px;
+        font-weight: 400;
+        opacity: 0.666;
+        margin: 0 0 28px;
+      }
+      .currently-looking-tag {
+        margin-bottom: 20px;
+      }
+      .tag {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 15px;
+        border-radius: 3px;
+        vertical-align: text-top;
+        display: inline-block;
+        white-space: nowrap;
+      }
+      .tag-primary {
+        background: #5fc383;
+        color: #fff;
+      }
+      .tag-secondary {
+        background: #68b0f1;
+        color: #fff;
+      }
+      .tag-tertiary {
+        background: #ea86ae;
+        color: #fff;
+      }
+      blockquote {
+        margin: 0 0 150px 0;
+        font-size: 32px;
+        line-height: 1.5625em;
+        opacity: 0.666;
+        max-width: 970px;
+        font-weight: 300;
+      }
+      section {
+        margin-bottom: 150px;
+      }
+      .resume-item {
+        margin-bottom: 80px;
+      }
+      .resume-item ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 28px;
+      }
+      .resume-item li {
+        font-size: 17px;
+        opacity: 0.666;
+        margin-bottom: 13px;
+        line-height: 1.4em;
+      }
+      .resume-item-dates {
+        font-size: 15px;
+        opacity: 0.535;
+        margin: 0;
+      }
+      .resume-item .tag {
+        margin-left: 18px;
+      }
+      .high-five {
+        text-align: center;
+      }
+      .high-five button {
+        font-size: 40px;
+        transition: transform 150ms ease-in-out;
+      }
+      .high-five button:active {
+        transform: scale3d(0.9, 0.9, 0.9);
+      }
+      .high-five p {
+        font-size: 15px;
+        opacity: 0.535;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding-top: 50px;
+        }
+        .container {
+          padding: 0 30px;
+        }
+        header {
+          padding-left: 0;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+        .profile-image-container {
+          position: relative;
+          width: 100px;
+          height: 100px;
+          display: inline-block;
+          top: auto;
+          left: auto;
+        }
+        .profile-image-container:before {
+          width: 94px;
+          height: 94px;
+          top: 5px;
+          left: 7px;
+        }
+        header nav {
+          margin-right: -27px;
+          position: static;
+          font-size: 13px;
+        }
+        header nav a {
+          margin-right: 10px;
+          opacity: 0.4;
+        }
+        h1 {
+          margin-bottom: 1rem;
+        }
+        h2 {
+          display: none;
+        }
+        h3 {
+          font-size: 11px;
+        }
+        h4 {
+          font-size: 15px;
+          padding-top: 30px;
+          position: relative;
+        }
+        h5 {
+          font-size: 14px;
+        }
+        .currently-looking-tag {
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        .tag {
+          padding: 4px 11px;
+        }
+        blockquote {
+          text-align: left;
+          font-size: 17px;
+          margin-bottom: 50px;
+        }
+        section {
+          margin-bottom: 50px;
+        }
+        .resume-item {
+          margin-bottom: 50px;
+        }
+        .resume-item li {
+          font-size: 14px;
+        }
+        .resume-item-dates {
+          font-size: 13px;
+        }
+        .resume-item .tag {
+          position: absolute;
+          top: 0;
+          left: 0;
+          margin: 0;
+        }
+        .high-five p {
+          font-size: 13px;
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body data-theme="light">
+    <div class="container">
+      <header>
+        <div class="profile-image-container">
+          <img src="assets/head-shot.png" alt="Filip Grace" />
+        </div>
+        <h1>Filip Grace</h1>
+        <h2>Hi, and welcome.</h2>
+        <nav>
+          <a
+            target="_blank"
+            href="https://angel.co/u/filip-grace"
+            rel="noreferrer noopener nofollow"
+            >AngelList</a
+          >
+          <a
+            target="_blank"
+            href="https://github.com/filbot"
+            rel="noreferrer noopener nofollow"
+            >Github</a
+          >
+          <a
+            target="_blank"
+            href="https://stackoverflow.com/users/1678592/filip-grace?tab=profile"
+            rel="noreferrer noopener nofollow"
+            >Stack Overflow</a
+          >
+          <a target="_blank" href="mailto:filip@filbot.com">Email</a>
+        </nav>
+      </header>
+      <div class="currently-looking-tag">
+        <span class="tag tag-tertiary">Currently Looking</span>
+      </div>
+      <blockquote>
+        I’m a frontend developer who enjoys people as much as computers. When
+        I’m not coding, I'm working on remodeling the house or taking photos and
+        working on my Lightroom workflow.
+      </blockquote>
+      <section>
+        <h3>Resume</h3>
+        <div class="resume-item">
+          <h4>
+            Web Developer
+            <span class="tag tag-primary">Remote</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://icrossing.com/"
+              rel="noreferrer noopener nofollow"
+              >iCrossing, Inc.</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Developer on toyota.com working on scheduled site releases,
+              upgrades, and maintenance, as well as upcoming features.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            June 2015 - December 2018 (over 3 years)
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            Frontend Developer
+            <span class="tag tag-secondary">On-site</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://www.thecloroxcompany.com/"
+              rel="noreferrer noopener nofollow"
+              >The Clorox Company</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Interfaced with multiple brand project managers and design teams
+              to help on maintenance issues and new marketing campaigns.
+            </li>
+          </ul>
+          <p class="resume-item-dates">October 2014 - June 2015 (9 months)</p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            Frontend Developer
+            <span class="tag tag-primary">Remote</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://www.x15soft.com/"
+              rel="noreferrer noopener nofollow"
+              >X15 Software</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Utilized the AngularJS framework to build a rich machine data
+              exploration web app using advanced frontend workflows and build
+              tools such as GruntJS, GulpJS, Sass as well as a migration from
+              bootstrap to foundation.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            February 2014 - September 2014 (8 months)
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            Frontend Developer
+            <span class="tag tag-secondary">On-site</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://www.planet.com/"
+              rel="noreferrer noopener nofollow"
+              >Skybox Imaging</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Built web interfaces to search, schedule, and manage satellite
+              imagery data.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            December 2013 - February 2014 (3 months)
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            Frontend Developer
+            <span class="tag tag-secondary">On-site</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://www.intuit.com/"
+              rel="noreferrer noopener nofollow"
+              >Intuit</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Lead developer working with internal marketing department on a
+              launch site for a new product partnership campaign.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            September 2013 - November 2013 (3 months)
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            Web Developer
+            <span class="tag tag-secondary">On-site</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="http://www.subatomicsystems.com/"
+              rel="noreferrer noopener nofollow"
+              >Subatomic Systems</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Built web apps focused on mobile devices and touch interfaces,
+              utilized advanced front-end frameworks and built out RESTful apis,
+              pushing the web as a platform for an end-to-end app experience.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            May 2012 - July 2013 (1 year 2 months)
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            DevOps
+            <span class="tag tag-secondary">On-site</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://www.boku.com/"
+              rel="noreferrer noopener nofollow"
+              >BOKU, Inc.</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Building out company infrastructure to support our customer facing
+              products in a 24/7 environment. Focused on uptime, replication and
+              redundancy.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            May 2011 - May 2012 (1 year)
+          </p>
+        </div>
+        <div class="resume-item">
+          <h4>
+            Systems Administrator
+            <span class="tag tag-secondary">On-site</span>
+          </h4>
+          <h5>
+            <a
+              target="_blank"
+              href="https://www.weldonowen.com/"
+              rel="noreferrer noopener nofollow"
+              >Weldon Owen Publishing</a
+            >
+          </h5>
+          <ul>
+            <li>
+              Managed company IT infrastructure. Helped transition company into
+              digital publishing as part of a "Digital" team.
+            </li>
+          </ul>
+          <p class="resume-item-dates">
+            December 2006 - May 2011 (4 years 6 month)
+          </p>
+        </div>
+      </section>
+      <section class="high-five">
+        <p>Thanks for reading.</p>
+      </section>
+    </div>
+  </body>
+</html>
